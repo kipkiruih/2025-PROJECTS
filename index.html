@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shoe Store Kenya</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <!-- Sidebar Dashboard -->
+  <button id="toggle-sidebar">☰</button>
+  <aside class="sidebar" id="sidebar">
+    <h2>Dashboard</h2>
+    <ul>
+      <li><a href="#home" class="active">Home</a></li>
+      <li>
+        <a href="#products" class="collapsible">Products</a>
+        <ul class="submenu">
+          <li><a href="#all-products">All Products</a></li>
+          <li><a href="#featured">Featured Products</a></li>
+          <li><a href="#new-arrivals">New Arrivals</a></li>
+        </ul>
+      </li>
+      <li><a href="#orders">Orders</a></li>
+      <li><a href="#account">Account</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <header>
+      <div class="logo">
+        <h1>Shoe Store Kenya</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#cart">Cart</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section with Featured Image or Promotions -->
+    <section id="hero">
+      <h2>Find Your Perfect Fit</h2>
+      <p>Explore our wide range of shoes for every style and occasion!</p>
+      <button>Shop Now</button>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="featured-products">
+      <h2>Featured Products</h2>
+      <div class="product-grid">
+        <!-- Placeholder for each product item -->
+        <div class="product-item">
+          <img src="shoe1.jpg" alt="Shoe Name">
+          <h3>Shoe Name</h3>
+          <p>$100</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="shoe2.jpg" alt="Shoe Name">
+            <h3>Shoe Name</h3>
+            <p>$100</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product-item">
+            <img src="shoe9.jpg" alt="Shoe Name">
+            <h3>Shoe Name</h3>
+            <p>$100</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product-item">
+            <img src="shoe10.jpg" alt="Shoe Name">
+            <h3>Shoe Name</h3>
+            <p>$100</p>
+            <button>Add to Cart</button>
+          </div>
+        <!-- Add more product items as needed -->
+         <!-- Cart Section -->
+<section id="cart-section">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <div id="cart-total"></div>
+    <button id="checkout-button">Checkout</button>
+  </section>
+  
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Shoe Store Kenya. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
